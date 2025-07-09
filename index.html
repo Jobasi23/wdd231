@@ -6,6 +6,9 @@
     <meta name="description" content="Student Course homepage">
     <title>Byu-Student Page</title>
     <meta name="author" content="Joshua Ifeanyichukwu Obasi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/navigation.js" defer></script>
 </head>
@@ -71,10 +74,7 @@
             <div class="contact-info">
                 <p>&copy; 2023 Joshua Ifeanyichukwu Obasi</p>
                 <p>Last updated: <span id="lastUpdated"></span></p>
-                <script>
-                    const lastModified = document.lastModified;
-                    document.getElementById("lastUpdated").textContent = lastModified;
-                </script>
+                <script src="scripts/date.js"defer></script>
             </div>
         </footer>
     </main>
