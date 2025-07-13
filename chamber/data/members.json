@@ -1,0 +1,85 @@
+{
+  "members": [
+    {
+      "name": "Ebu's Shoes",
+      "address": "123 Shoe Street, Urban-Day",
+      "phone": "0912354734",
+      "website": "https://ebushoes.com",
+      "image": "ebus.jpeg",
+      "level": 1,
+      "description": "Quality and satisfaction is our major"
+    },
+    {
+      "name": "Dubi's Accessories",
+      "address": "456 Style Ave, Urban-Day",
+      "phone": "0912354734",
+      "website": "https://dubiaccess.com",
+      "image": "almani.jpeg",
+      "level": 2,
+      "description": "Quality and satisfaction is our major"
+    },
+    {
+      "name": "Thia's Lips and Accessories",
+      "address": "789 Beauty Blvd, Urban-Day",
+      "phone": "0912354734",
+      "website": "https://thialips.com",
+      "image": "thia.jpeg",
+      "level": 3,
+      "description": "Keep your lips smooth and sexy"
+    },
+    {
+      "name": "Zoe’s Fashion World",
+      "address": "101 Glam Street, Urban-Day",
+      "phone": "08011223344",
+      "website": "https://zoe-fashion.com",
+      "image": "zoe.jpeg",
+      "level": 2,
+      "description": "Your hub for urban fashion trends."
+    },
+    {
+      "name": "NextGen Electronics",
+      "address": "202 Tech Avenue, Urban-Day",
+      "phone": "08022334455",
+      "website": "https://nextgenelectronics.com",
+      "image": "nextgen.jpeg",
+      "level": 1,
+      "description": "Affordable gadgets for everyone."
+    },
+    {
+      "name": "Soma Cakes",
+      "address": "303 Wellness Road, Urban-Day",
+      "phone": "09033445566",
+      "website": "https://healthybitescafe.com",
+      "image": "som.jpeg",
+      "level": 3,
+      "description": "Fresh and healthy meals for a better you."
+    },
+    {
+      "name": "Dera's Foodstore",
+      "address": "405 Learning Lane, Urban-Day",
+      "phone": "07044556677",
+      "website": "https://deefood.com",
+      "image": "Dera.jpeg",
+      "level": 1,
+      "description": "Books that inspire and educate."
+    },
+    {
+      "name": "Prime Bookstore",
+      "address": "409 Learning Lane, Urban-Day",
+      "phone": "07044526677",
+      "website": "https://primebookstore.com",
+      "image": "prime.jpeg",
+      "level": 3,
+      "description": "Books that inspire and educate."
+    },
+    {
+      "name": "Black Musicals",
+      "address": "404 Learning Lane, Urban-Day",
+      "phone": "07044556647",
+      "website": "https://blackmusicals.com",
+      "image": "black.jpeg",
+      "level": 2,
+      "description": "Books that inspire and educate."
+    }
+  ]
+}
