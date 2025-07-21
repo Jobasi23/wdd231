@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"content="This is a resource hub for businesses in the city of Urban-Day. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping">
+    <meta name="description" content="This is a resource hub for businesses in the city of Urban-Day. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping">
     <title>Urban-Day Chamber Of commerce</title>
-    <meta name="author"content="Joshua Ifeanyichukwu Obasi">
+    <meta name="author" content="Joshua Ifeanyichukwu Obasi">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Urban-Day Chamber of Commerce">
-    <meta property="og:description" content="Connect with various businesses available at Urban-Day Chamber of Commerce. Discover local events, networking opportunities, and support local shopping.">
-    <meta property="og:url" content="https://jonam.netlify.app/">
-    <meta property="og:image" content="https://www.google.com/imgres?q=a%20shopping%20mall&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F591641675016e1ac9984f2db%2F1496422270787-N1AR8YOCDDAUCAESE2OL%2Fimage-asset.jpeg&imgrefurl=https%3A%2F%2Fjournal.businesstoday.org%2Fbt-online%2F2017%2Fthe-future-of-shopping-malls&docid=g-hvq8dGp0mNTM&tbnid=9mutF3hw7JDOnM&vet=12ahUKEwjpzJuEobeOAxXhVUEAHUTmN7sQM3oECGMQAA..i&w=2500&h=1667&hcb=2&ved=2ahUKEwjpzJuEobeOAxXhVUEAHUTmN7sQM3oECGMQAA">
+    <meta property="og:description" content=" Urban-Day Chamber of Commerce serves as the central hub for local business growth, economic development, and community engagement in Urban-Day. We empower entrepreneurs, connect professionals, and promote a thriving local economy through events, resources, and networking opportunities. Join us in shaping a vibrant and successful business environment.">
+    <meta property="og:url" content="https://jobasi23.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://jobasi23.github.io/wdd231/chamber/images/chamb.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/navigation.js" defer></script>
 </head>
 <body>
@@ -24,7 +25,6 @@
         <h1>Urban-Day Chamber Of commerce</h1>
         </div>
         <nav class="navbar">
-            <i class="fa-solid fa-toggle-off"></i>
             <div class="nav-left">
                 <button class="hamburger" aria-label="Toggle navigation">☰</button>
             </div>
@@ -35,10 +35,51 @@
                 <li><a href="join.html">Join us</a></li>
             </ul>
         </nav>
+        <div class="toggle">
+            <img src="images/toggle-off-solid.svg" alt="change in background button">
+        </div>
     </header>
-    <main></main>
+    <main>
+        <section class="hero">
+            <img src="images/chamberh.webp" alt="Urban City Landscape" class="hero-img" />
+            <div class="hero-text">
+                <h2>Empowering Local Businesses in Urban-Day</h2>
+                <p>Unite. Network. Prosper.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><strong>Business Networking Night:</strong> July 25, 2025 - 6:00 PM</li>
+                <li><strong>Local Business Fair:</strong> August 10, 2025 - 10:00 AM</li>
+                <li><strong>Monthly Member Meetup:</strong> August 15, 2025 - 5:30 PM</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Today's Weather</h2>
+            <div id="weather-info">
+                <script src="scripts/weather.js" defer></script>
+                <p>Loading weather data...</p>
+            </div>
+        </section>
+
+         <div class="chambers">
+            <h2>Chamber Members</h2>
+        </div>
+        <div class="business-cards" id="business-cards"></div>
+
+        <div class="see-more">
+            <button id="seeMoreBtn">See More</button>
+        </div>
+
+        <script src="scripts/members.js" defer></script>
+
+    </main>
     <footer>
-        <div class="footers-sections"></div>
+        <div class="footers-sections">
             <section class="foooter-address">
                 <h3>
                     Urban-Day Chamber Of Commerce
@@ -52,11 +93,13 @@
                 <a href="https://www.facebook.com/" target="_blank">
                     <img src="images/facebook.svg" alt="Facebook" width="32" height="32">
                 </a>
+
                 <a href="https://www.twitter.com/" target="_blank">
                     <img src="images/twit.svg" alt="Twitter" width="32" height="32">
                 </a>
+
                 <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="images/linkin.webp" alt="LinkedIn" width="32" height="32">
+                    <img src="images/linkin.svg" alt="LinkedIn" width="32" height="32">
                 </a>
             </section>
             <section class="modification">
@@ -64,7 +107,7 @@
                 <p>Joshua Ifeanyichukwu Obasi</p>
                 <p>&copy; 2023 Urban-Day Chamber of Commerce</p>
                 <p>Last updated: <span id="lastUpdated"></span></p>
-                <script src="scripts/date.js"defer></script>
+                <script src="scripts/date.js" defer></script>
             </section>
         </div>
     </footer>
