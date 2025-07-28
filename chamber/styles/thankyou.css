@@ -1,0 +1,37 @@
+main {
+      padding: 2rem;
+      text-align: center;
+}
+
+.thankyou-container {
+    max-width: 600px;
+    margin: auto;
+    background: #053b3f;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: left;
+}
+
+.thankyou-container p {
+    color: white;
+
+}
+
+.thankyou-container h2 {
+    text-align: center;
+    color: #2a9d8f;
+}
+
+.thankyou-container p {
+    margin: 0.5rem 0;
+}
+
+.field-label {
+    font-weight: 600;
+}
+
+.heading{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
