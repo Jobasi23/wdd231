@@ -1,0 +1,52 @@
+{
+  "interests": [
+    {
+      "name": "Dubi's Accessories",
+      "address": "456 Style Ave, Urban-Day",
+      "description": "Quality and satisfaction is our major. We offer an exclusive collection of fashion-forward accessories that complement every outfit and occasion, from everyday casual to elegant events.",
+      "image": "almani.webp"
+    },
+    {
+      "name": "Thia's Lips and Accessories",
+      "address": "789 Beauty Blvd, Urban-Day",
+      "description": "Keep your lips smooth and sexy. Our products are infused with nourishing ingredients, offering bold colors and long-lasting hydration — a must-have for every beauty enthusiast.",
+      "image": "thia.webp"
+    },
+    {
+      "name": "Zoe’s Fashion World",
+      "address": "101 Glam Street, Urban-Day",
+      "description": "Your hub for urban fashion trends. From streetwear to statement pieces, Zoe’s offers curated styles that blend comfort with confidence — fashion designed for the bold and stylish.",
+      "image": "zoe.webp"
+    },
+    {
+      "name": "NextGen Electronics",
+      "address": "202 Tech Avenue, Urban-Day",
+      "description": "Affordable gadgets for everyone. We bring cutting-edge tech to your fingertips — from smart devices and wearables to home electronics — all at budget-friendly prices.",
+      "image": "nextgen.webp"
+    },
+    {
+      "name": "Soma Cakes",
+      "address": "303 Wellness Road, Urban-Day",
+      "description": "Fresh and healthy meals for a better you. Specializing in custom cakes and pastries made with organic ingredients, Soma Cakes blends delicious taste with guilt-free indulgence.",
+      "image": "som.webp"
+    },
+    {
+      "name": "Dera's Foodstore",
+      "address": "405 Learning Lane, Urban-Day",
+      "description": "Books that inspire and educate. Beyond groceries, we offer a handpicked selection of cookbooks, nutrition guides, and resources that empower healthier and smarter eating choices.",
+      "image": "Dera.webp"
+    },
+    {
+      "name": "Prime Bookstore",
+      "address": "409 Learning Lane, Urban-Day",
+      "description": "Books that inspire and educate. Discover literary gems, academic texts, and creative stories that spark imagination and support lifelong learning in every reader.",
+      "image": "prime.webp"
+    },
+    {
+      "name": "Black Musicals",
+      "address": "404 Learning Lane, Urban-Day",
+      "description": "Books that inspire and educate. Explore a curated collection of musical histories, biographies, and sheet music celebrating Black excellence in sound, rhythm, and storytelling.",
+      "image": "black.webp"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.interest-card {
+  border: 1px solid #d3dfda;
+  padding: 1rem;
+  background: #797a7a;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.interest-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.interest-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .discover-grid {
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+      "eight";
+    grid-template-columns: 1fr;
+  }
+
+  .interest-card:nth-child(1) { grid-area: one; }
+  .interest-card:nth-child(2) { grid-area: two; }
+  .interest-card:nth-child(3) { grid-area: three; }
+  .interest-card:nth-child(4) { grid-area: four; }
+  .interest-card:nth-child(5) { grid-area: five; }
+  .interest-card:nth-child(6) { grid-area: six; }
+  .interest-card:nth-child(7) { grid-area: seven; }
+  .interest-card:nth-child(8) { grid-area: eight; }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-grid {
+    grid-template-areas:
+      "one two"
+      "three four"
+      "five six"
+      "seven eight";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 641px) {
+  .interest-card img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+}
+
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-areas:
+      "one two three four"
+      "five six seven eight";
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
