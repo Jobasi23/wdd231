@@ -1,0 +1,110 @@
+{
+  "cakes": [
+    {
+      "name": "Chocolate Delight",
+      "description": "Rich and moist chocolate cake topped with creamy chocolate ganache.",
+      "image": "images/hero.jpeg",
+      "price": "$25",
+      "discount": "10% Off"
+    },
+    {
+      "name": "Strawberry Bliss",
+      "description": "Fluffy vanilla sponge layered with fresh strawberries and whipped cream.",
+      "image": "images/nice.jpeg",
+      "price": "$20",
+      "discount": "15% Off"
+    },
+    {
+      "name": "Vanilla Dream",
+      "description": "Classic vanilla cake with buttercream frosting and a sprinkle of love.",
+      "image": "images/hero3.jpeg",
+      "price": "$18",
+      "discount": "5% Off"
+    },
+    {
+      "name": "Red Velvet Charm",
+      "description": "Soft red velvet layers with a smooth cream cheese frosting.",
+      "image": "images/hero2.jpeg",
+      "price": "$22",
+      "discount": "20% Off"
+    },
+    {
+      "name": "Lemon Zest Cake",
+      "description": "Tangy and sweet lemon cake perfect for sunny afternoons.",
+      "image": "images/hero1.jpeg",
+      "price": "$19",
+      "discount": "10% Off"
+    },
+    {
+      "name": "Caramel Crunch",
+      "description": "Moist caramel sponge topped with caramel glaze and crunchy nuts.",
+      "image": "images/big.jpeg",
+      "price": "$24",
+      "discount": "12% Off"
+    },
+    {
+      "name": "Black Forest Fantasy",
+      "description": "Layers of chocolate cake, cherries, and whipped cream.",
+      "image": "images/my.jpeg",
+      "price": "$23",
+      "discount": "18% Off"
+    },
+    {
+      "name": "Coffee Lovers Cake",
+      "description": "Coffee-infused cake for a rich, aromatic dessert experience.",
+      "image": "images/my1.jpeg",
+      "price": "$21",
+      "discount": "15% Off"
+    },
+    {
+      "name": "Pineapple Paradise",
+      "description": "Light sponge layered with pineapple cream and slices.",
+      "image": "images/my2.jpeg",
+      "price": "$20",
+      "discount": "8% Off"
+    },
+    {
+      "name": "Rainbow Celebration",
+      "description": "Colorful layers of cake with vanilla frosting — perfect for parties.",
+      "image": "images/my3.jpeg",
+      "price": "$28",
+      "discount": "25% Off"
+    }
+    ,
+    {
+      "name": "Mango Magic",
+      "description": "A tropical delight with mango puree and soft sponge layers.",
+      "image": "images/my4.jpeg",
+      "price": "$22",
+      "discount": "10% Off"
+    },
+    {
+      "name": "Blueberry Burst",
+      "description": "Moist vanilla cake filled with blueberry compote and cream.",
+      "image": "images/my5.jpeg",
+      "price": "$23",
+      "discount": "12% Off"
+    },
+    {
+      "name": "Hazelnut Heaven",
+      "description": "Chocolate and hazelnut layers topped with crunchy praline.",
+      "image": "images/my6.jpeg",
+      "price": "$26",
+      "discount": "15% Off"
+    },
+    {
+      "name": "Orange Velvet",
+      "description": "Soft orange-flavored cake with citrus cream cheese frosting.",
+      "image": "images/my7.jpeg",
+      "price": "$21",
+      "discount": "8% Off"
+    },
+    {
+      "name": "Almond Joy",
+      "description": "Almond sponge cake with a hint of coconut and chocolate drizzle.",
+      "image": "images/my8.jpeg",
+      "price": "$24",
+      "discount": "10% Off"
+    }
+  ]
+}

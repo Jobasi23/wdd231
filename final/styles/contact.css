@@ -1,0 +1,180 @@
+
+.contact-hero {
+    position: relative;
+    background: url('../images/h9.jpeg') center/cover no-repeat;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-content .reach-out {
+    background: none; /* remove solid yellow */
+    box-shadow: none; /* remove box shadow */
+    padding: 1rem;
+}
+
+
+
+.reach-out {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.reach-out h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.reach-out h1 span {
+    color: #f7e4b3;
+}
+
+.reach-out p {
+    font-size: 1.1rem;
+    color: #fff8f3;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.08);
+    padding: 1.5rem 2rem;
+    min-width: 220px;
+    text-align: center;
+}
+
+.info-box h2 {
+    font-size: 1.2rem;
+    color: #6b3e26;
+    margin-bottom: 0.5rem;
+}
+
+.info-box p {
+    color: #444;
+    font-size: 1rem;
+}
+
+.weather {
+    background: #f7e4b3;
+    margin: 2rem auto;
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.08);
+    text-align: center;
+}
+
+.weather h2 {
+    color: #6b3e26;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    background: #fff;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.08);
+}
+
+.contact-form h2 {
+    color: #6b3e26;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.7rem;
+    border: 1px solid #ffd6e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff8f3;
+    transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 1.5px solid #6b3e26;
+    outline: none;
+}
+
+.contact-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #6b3e26;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contact-form button:hover {
+    background: #f9c6d1;
+}
+
+.map {
+    max-width: 1200px;
+    margin: 1rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.08);
+    padding: 1.5rem 1rem;
+}
+
+.map h2 {
+    color: #6b3e26;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .map, .contact-form, .weather {
+        max-width: 95vw;
+    }
+}

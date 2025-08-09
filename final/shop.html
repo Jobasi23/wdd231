@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mmesoma Cake Bliss</title>
+    <meta name="description" content="Mma Cake Bliss reflects the joy and indulgence people associate with delicious, beautifully crafted cakes.">
+    <meta name="author" content="Joshua Ifeanyichukwu Obasi">
+    <link rel="icon" href="favicon (1).ico">
+    <meta property="og:title" content="Mmesoma Cake Bliss">
+    <meta property="og:description" content=" Mmesoma Cake Bliss reflects the joy and indulgence people associate with delicious, beautifully crafted cakes. It cost less and delivers quick">
+    <meta property="og:url" content="https://jobasi23.github.io/wdd231/final/shop.html">
+    <meta property="og:image" content="https://jobasi23.github.io/wdd231/final/images/hero.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/shop.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/mclogo.PNG" alt="company's logo">
+        </div>
+
+        <div class="links">
+            <div class="hamburg">
+                <button class="hamburger" aria-label="Toggle navigation">☰</button>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us </a></li>
+            </ul>
+        </div>
+
+        <div class="icon">
+            <img src="images/shop.svg" alt="shopping cart">
+            <img src="images/like.svg" alt="liked product">
+        </div>
+
+        <div class="toggle">
+            <img src="images/toggle-off-solid-full.svg" alt="change in background button">
+        </div>
+    </header>
+    <main>
+        <section class="cake-gallery" id="cakeGallery"></section>
+        <button id="toggleBtn">See More</button>
+    </main>
+    <footer>
+        <div class="footers-sections">
+            <section class="foooter-address">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </section>
+
+            <section class="socialinks">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/Fb.svg" alt="Facebook" width="32" height="32">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="images/x.svg" alt="Twitter" width="32" height="32">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/insta.svg" alt="Instagram" width="32" height="32">
+                    </a>
+                </div>
+            </section>
+
+            <section class="modification">
+                <p>WDD231 Final Project</p>
+                <p>Joshua Ifeanyichukwu Obasi</p>
+                <p>&copy; 2025 McCakes. All rights reserved.</p>
+                <p>Last updated: <span id="lastUpdated"></span></p>
+                <script src="scripts/date.js" defer></script>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
